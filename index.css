@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+body{
+    width: 90%;
+    margin: auto;
+    background-image: url(../Hari/dark-wall-empty-room-with-plants-floor-3d-rendering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main{
+    background-color: rgba(66, 79, 114, 0.24);
+}
+.logo{
+    float: left; 
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    list-style-type: none;
+    height: 30px;
+    padding: 10px;
+    border: 1px sloid black ;
+    border-radius: 10px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+#page{
+    width: 90%;
+    height: 0vh;
+    margin: auto;
+    text-align: center;
+    color: rgb(73, 21, 71);
+    margin: 50px;
+    position: absolute;
+}
+#page h1{
+    font-size: 4em;
+    position: relative;
+    top: 20vh;
+}
+#page p{
+    font-size: 2em;
+    position: relative;
+    top: 20vh;
+    color: black;
+}
+.clearfix{
+    clear:both;
+}
